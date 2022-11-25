@@ -28,13 +28,13 @@ export default LandingLayout;
 
 <Jumbotron>
   <NavBar location={props.location} standalone={false} />
-  <H1>Redocly training</H1>
-  <H2>A starter developer portal with training exercises</H2>
+  <H1>Welcome to DCM Docs!</H1>
+  <H2>Documentation for the Digital Currency Manager (DCM)</H2>
   <Flex p={20} justifyContent="center">
-    {/* <Button size="xlarge" to="https://app.redoc.ly">
+    <Button inversed large to="https://app.redoc.ly">
       Redocly app
-    </Button> */}
-     <Button variant="outlined" size="xlarge" to="developer-portal/index.md">
+    </Button>
+     <Button inversed transparent large to="developer-portal/index.md">
       Get started
     </Button>
     {/* <Button variant="outlined" size="xlarge" to="https://redoc.ly/docs">
@@ -66,10 +66,10 @@ export default LandingLayout;
         an usu.
     </ThinTile>
   </FlexSection>
-  {/* <Jumbotron parallaxEffect bgImage={icon1}>
+  <Jumbotron parallaxEffect bgImage={icon1}>
     <H1>Tutorials</H1>
     <H2>Get setup faster...</H2>
-  </Jumbotron> */}
+  </Jumbotron>
   <SectionHeader>
     <Emphasis>Need help? </Emphasis>
     Try our training exercises.

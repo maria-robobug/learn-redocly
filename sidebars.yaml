@@ -38,13 +38,19 @@ training:
         page: developer-portal/mdx.mdx
       - label: Creating React components
         page: developer-portal/custom-component.mdx
+      - label: My First Markdown Page
+        page: developer-portal/plain.md
+      - label: My Second Markdown Page
+        page: developer-portal/api-page.mdx
+      - label: Markdown
+        page: developer-portal/markdown.md
   - group: Petstore reference
-    expanded: false
+    expanded: true
     pages:
       - page: openapi/reference.page.yaml/*
 
   - group: Admin
-    expanded: true
+    expanded: false
     pages:
       - group: Routine
         expanded: true
@@ -65,7 +71,7 @@ training:
                             expanded: true
                             pages:
                               - label: Upgrading
-                                # page: developer-portal/upgrade.md
+                                page: developer-portal/upgrade.md
 alternative:
   - page: developer-portal/sidebar-alternative.md
     label: Alternative sidebar example
